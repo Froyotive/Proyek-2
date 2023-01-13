@@ -5,7 +5,6 @@ def addProduct(products, id_barang_new, nama_barang, harga_barang):
         "nama_barang": nama_barang,
         "harga_barang": harga_barang
     }
-    pass  # modify this pass with your own implementation
 
 
 def calculateTotalPriceAfterDiscount(totalPrice):
