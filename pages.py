@@ -86,12 +86,10 @@ def product_input_screen():
     elif is_okay == 2:
         # ------------------------ TUGAS < panggil fungsi product_input_screen() disini / ganti pass dibawah dengan memanggil fungsinya
         product_input_screen()
-        pass
         # ------------------------ TUGAS >
     else:
         # ------------------------ TUGAS < panggil fungsi main_product_screen() disini / ganti pass dibawah dengan memanggil fungsinya
         main_product_screen()
-        pass
         # ------------------------ TUGAS >
 
 
@@ -147,7 +145,6 @@ def product_show_screen(id_barang=None):
         if is_okay == "y":
             # ------------------------ TUGAS < hapus product yang memiliki id tertentu dari dictionary model.products menggunakan variable id_barang
             model.products.pop(id_barang)
-            pass
             # ------------------------ TUGAS >
             product_show_screen()
         else:
@@ -309,7 +306,7 @@ def transaksi_show_screen(id_transaksi=None, id_barang=None):
     ]
 
     if len(model.transactions) == 0:
-        sentences_list.append("Data transaksi penjualan tidak kosong")
+        sentences_list.append("Data transaksi penjualan kosong")
         sentences_list.append("")
         sentences_list.append("Ketik 3 untuk input data transaksi penjualan")
     else:

@@ -16,6 +16,6 @@ def calculateTotalPriceAfterDiscount(totalPrice):
     elif totalPrice >= 150000:
         potonganDiskon = 0.10*totalPrice
     else:
-        totalPrice == totalPrice
+        potonganDiskon = 0
     totalPrice -= potonganDiskon
     return totalPrice
